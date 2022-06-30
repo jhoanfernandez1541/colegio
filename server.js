@@ -4,5 +4,5 @@ require("./bin/connect");
 require("./bin/routes")(app)
 
 app.listen(3000, ()=>{
-  console.log('el servidor se levanto')
+  console.log('el servidor se ha levanto')
 })
